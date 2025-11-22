@@ -1,0 +1,856 @@
+[
+    {
+        "Base verbale": "abide",
+        "Preterit": "abode/abided",
+        "Participe passe": "abode/abided",
+        "Traduction": "demeurer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "arise",
+        "Preterit": "arose",
+        "Participe passe": "arisen",
+        "Traduction": "se lever",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "be",
+        "Preterit": "was/were",
+        "Participe passe": "been",
+        "Traduction": "être",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "become",
+        "Preterit": "became",
+        "Participe passe": "become",
+        "Traduction": "devenir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "begin",
+        "Preterit": "began",
+        "Participe passe": "begun",
+        "Traduction": "commencer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "bend",
+        "Preterit": "bent",
+        "Participe passe": "bent",
+        "Traduction": "plier",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "bet",
+        "Preterit": "bet",
+        "Participe passe": "bet",
+        "Traduction": "parier",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "bite",
+        "Preterit": "bit",
+        "Participe passe": "bitten",
+        "Traduction": "mordre",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "blow",
+        "Preterit": "blew",
+        "Participe passe": "blown",
+        "Traduction": "souffler",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "break",
+        "Preterit": "broke",
+        "Participe passe": "broken",
+        "Traduction": "casser",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "bring",
+        "Preterit": "brought",
+        "Participe passe": "brought",
+        "Traduction": "apporter",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "build",
+        "Preterit": "built",
+        "Participe passe": "built",
+        "Traduction": "construire",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "burn",
+        "Preterit": "burnt/burned",
+        "Participe passe": "burnt/burned",
+        "Traduction": "brûler",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "burst",
+        "Preterit": "burst",
+        "Participe passe": "burst",
+        "Traduction": "éclater",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "buy",
+        "Preterit": "bought",
+        "Participe passe": "bought",
+        "Traduction": "acheter",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "catch",
+        "Preterit": "caught",
+        "Participe passe": "caught",
+        "Traduction": "attraper",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "choose",
+        "Preterit": "chose",
+        "Participe passe": "chosen",
+        "Traduction": "choisir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "come",
+        "Preterit": "came",
+        "Participe passe": "come",
+        "Traduction": "venir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "cost",
+        "Preterit": "cost",
+        "Participe passe": "cost",
+        "Traduction": "coûter",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "cut",
+        "Preterit": "cut",
+        "Participe passe": "cut",
+        "Traduction": "couper",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "deal",
+        "Preterit": "dealt",
+        "Participe passe": "dealt",
+        "Traduction": "traiter",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "dig",
+        "Preterit": "dug",
+        "Participe passe": "dug",
+        "Traduction": "creuser",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "do",
+        "Preterit": "did",
+        "Participe passe": "done",
+        "Traduction": "faire",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "draw",
+        "Preterit": "drew",
+        "Participe passe": "drawn",
+        "Traduction": "dessiner",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "dream",
+        "Preterit": "dreamt/dreamed",
+        "Participe passe": "dreamt/dreamed",
+        "Traduction": "rêver",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "drink",
+        "Preterit": "drank",
+        "Participe passe": "drunk",
+        "Traduction": "boire",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "drive",
+        "Preterit": "drove",
+        "Participe passe": "driven",
+        "Traduction": "conduire",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "eat",
+        "Preterit": "ate",
+        "Participe passe": "eaten",
+        "Traduction": "manger",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "fall",
+        "Preterit": "fell",
+        "Participe passe": "fallen",
+        "Traduction": "tomber",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "feed",
+        "Preterit": "fed",
+        "Participe passe": "fed",
+        "Traduction": "nourrir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "feel",
+        "Preterit": "felt",
+        "Participe passe": "felt",
+        "Traduction": "sentir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "fight",
+        "Preterit": "fought",
+        "Participe passe": "fought",
+        "Traduction": "combattre",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "find",
+        "Preterit": "found",
+        "Participe passe": "found",
+        "Traduction": "trouver",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "fly",
+        "Preterit": "flew",
+        "Participe passe": "flown",
+        "Traduction": "voler",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "forget",
+        "Preterit": "forgot",
+        "Participe passe": "forgotten",
+        "Traduction": "oublier",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "forgive",
+        "Preterit": "forgave",
+        "Participe passe": "forgiven",
+        "Traduction": "pardonner",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "freeze",
+        "Preterit": "froze",
+        "Participe passe": "frozen",
+        "Traduction": "geler",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "get",
+        "Preterit": "got",
+        "Participe passe": "got/gotten",
+        "Traduction": "obtenir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "give",
+        "Preterit": "gave",
+        "Participe passe": "given",
+        "Traduction": "donner",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "go",
+        "Preterit": "went",
+        "Participe passe": "gone",
+        "Traduction": "aller",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "grow",
+        "Preterit": "grew",
+        "Participe passe": "grown",
+        "Traduction": "grandir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "hang",
+        "Preterit": "hung/hanged",
+        "Participe passe": "hung/hanged",
+        "Traduction": "pendre",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "have",
+        "Preterit": "had",
+        "Participe passe": "had",
+        "Traduction": "avoir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "hear",
+        "Preterit": "heard",
+        "Participe passe": "heard",
+        "Traduction": "entendre",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "hide",
+        "Preterit": "hid",
+        "Participe passe": "hidden",
+        "Traduction": "cacher",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "hit",
+        "Preterit": "hit",
+        "Participe passe": "hit",
+        "Traduction": "frapper",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "hold",
+        "Preterit": "held",
+        "Participe passe": "held",
+        "Traduction": "tenir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "hurt",
+        "Preterit": "hurt",
+        "Participe passe": "hurt",
+        "Traduction": "faire mal",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "keep",
+        "Preterit": "kept",
+        "Participe passe": "kept",
+        "Traduction": "garder",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "know",
+        "Preterit": "knew",
+        "Participe passe": "known",
+        "Traduction": "connaître",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "lay",
+        "Preterit": "laid",
+        "Participe passe": "laid",
+        "Traduction": "poser",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "lead",
+        "Preterit": "led",
+        "Participe passe": "led",
+        "Traduction": "conduire",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "learn",
+        "Preterit": "learnt/learned",
+        "Participe passe": "learnt/learned",
+        "Traduction": "apprendre",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "leave",
+        "Preterit": "left",
+        "Participe passe": "left",
+        "Traduction": "partir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "lend",
+        "Preterit": "lent",
+        "Participe passe": "lent",
+        "Traduction": "prêter",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "let",
+        "Preterit": "let",
+        "Participe passe": "let",
+        "Traduction": "laisser",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "lie",
+        "Preterit": "lay",
+        "Participe passe": "lain",
+        "Traduction": "s'allonger",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "light",
+        "Preterit": "lit/lighted",
+        "Participe passe": "lit/lighted",
+        "Traduction": "allumer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "lose",
+        "Preterit": "lost",
+        "Participe passe": "lost",
+        "Traduction": "perdre",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "make",
+        "Preterit": "made",
+        "Participe passe": "made",
+        "Traduction": "faire",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "mean",
+        "Preterit": "meant",
+        "Participe passe": "meant",
+        "Traduction": "signifier",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "meet",
+        "Preterit": "met",
+        "Participe passe": "met",
+        "Traduction": "rencontrer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "pay",
+        "Preterit": "paid",
+        "Participe passe": "paid",
+        "Traduction": "payer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "put",
+        "Preterit": "put",
+        "Participe passe": "put",
+        "Traduction": "mettre",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "read",
+        "Preterit": "read",
+        "Participe passe": "read",
+        "Traduction": "lire",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "ride",
+        "Preterit": "rode",
+        "Participe passe": "ridden",
+        "Traduction": "chevaucher",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "ring",
+        "Preterit": "rang",
+        "Participe passe": "rung",
+        "Traduction": "sonner",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "rise",
+        "Preterit": "rose",
+        "Participe passe": "risen",
+        "Traduction": "se lever",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "run",
+        "Preterit": "ran",
+        "Participe passe": "run",
+        "Traduction": "courir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "say",
+        "Preterit": "said",
+        "Participe passe": "said",
+        "Traduction": "dire",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "see",
+        "Preterit": "saw",
+        "Participe passe": "seen",
+        "Traduction": "voir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "seek",
+        "Preterit": "sought",
+        "Participe passe": "sought",
+        "Traduction": "chercher",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "sell",
+        "Preterit": "sold",
+        "Participe passe": "sold",
+        "Traduction": "vendre",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "send",
+        "Preterit": "sent",
+        "Participe passe": "sent",
+        "Traduction": "envoyer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "set",
+        "Preterit": "set",
+        "Participe passe": "set",
+        "Traduction": "placer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "shake",
+        "Preterit": "shook",
+        "Participe passe": "shaken",
+        "Traduction": "secouer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "shine",
+        "Preterit": "shone",
+        "Participe passe": "shone",
+        "Traduction": "briller",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "shoot",
+        "Preterit": "shot",
+        "Participe passe": "shot",
+        "Traduction": "tirer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "show",
+        "Preterit": "showed",
+        "Participe passe": "shown",
+        "Traduction": "montrer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "shut",
+        "Preterit": "shut",
+        "Participe passe": "shut",
+        "Traduction": "fermer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "sing",
+        "Preterit": "sang",
+        "Participe passe": "sung",
+        "Traduction": "chanter",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "sink",
+        "Preterit": "sank",
+        "Participe passe": "sunk",
+        "Traduction": "couler",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "sit",
+        "Preterit": "sat",
+        "Participe passe": "sat",
+        "Traduction": "s'asseoir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "sleep",
+        "Preterit": "slept",
+        "Participe passe": "slept",
+        "Traduction": "dormir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "slide",
+        "Preterit": "slid",
+        "Participe passe": "slid",
+        "Traduction": "glisser",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "speak",
+        "Preterit": "spoke",
+        "Participe passe": "spoken",
+        "Traduction": "parler",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "spend",
+        "Preterit": "spent",
+        "Participe passe": "spent",
+        "Traduction": "dépenser",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "spin",
+        "Preterit": "spun",
+        "Participe passe": "spun",
+        "Traduction": "tourner",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "split",
+        "Preterit": "split",
+        "Participe passe": "split",
+        "Traduction": "fendre",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "spoil",
+        "Preterit": "spoilt/spoiled",
+        "Participe passe": "spoilt/spoiled",
+        "Traduction": "gâter",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "spread",
+        "Preterit": "spread",
+        "Participe passe": "spread",
+        "Traduction": "étendre",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "spring",
+        "Preterit": "sprang",
+        "Participe passe": "sprung",
+        "Traduction": "surgir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "stand",
+        "Preterit": "stood",
+        "Participe passe": "stood",
+        "Traduction": "se tenir debout",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "steal",
+        "Preterit": "stole",
+        "Participe passe": "stolen",
+        "Traduction": "voler",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "stick",
+        "Preterit": "stuck",
+        "Participe passe": "stuck",
+        "Traduction": "coller",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "sting",
+        "Preterit": "stung",
+        "Participe passe": "stung",
+        "Traduction": "piquer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "stink",
+        "Preterit": "stank/stunk",
+        "Participe passe": "stunk",
+        "Traduction": "puer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "strike",
+        "Preterit": "struck",
+        "Participe passe": "struck",
+        "Traduction": "frapper",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "string",
+        "Preterit": "strung",
+        "Participe passe": "strung",
+        "Traduction": "enfiler",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "strip",
+        "Preterit": "stripped/stript",
+        "Participe passe": "stripped/stript",
+        "Traduction": "dépouiller",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "strive",
+        "Preterit": "strove/strived",
+        "Participe passe": "striven/strived",
+        "Traduction": "s'efforcer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "swear",
+        "Preterit": "swore",
+        "Participe passe": "sworn",
+        "Traduction": "jurer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "sweat",
+        "Preterit": "sweat/sweated",
+        "Participe passe": "sweat/sweated",
+        "Traduction": "transpirer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "sweep",
+        "Preterit": "swept",
+        "Participe passe": "swept",
+        "Traduction": "balayer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "swim",
+        "Preterit": "swam",
+        "Participe passe": "swum",
+        "Traduction": "nager",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "swing",
+        "Preterit": "swung",
+        "Participe passe": "swung",
+        "Traduction": "balancer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "take",
+        "Preterit": "took",
+        "Participe passe": "taken",
+        "Traduction": "prendre",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "teach",
+        "Preterit": "taught",
+        "Participe passe": "taught",
+        "Traduction": "enseigner",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "tear",
+        "Preterit": "tore",
+        "Participe passe": "torn",
+        "Traduction": "déchirer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "tell",
+        "Preterit": "told",
+        "Participe passe": "told",
+        "Traduction": "dire",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "think",
+        "Preterit": "thought",
+        "Participe passe": "thought",
+        "Traduction": "penser",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "throw",
+        "Preterit": "threw",
+        "Participe passe": "thrown",
+        "Traduction": "jeter",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "thrust",
+        "Preterit": "thrust",
+        "Participe passe": "thrust",
+        "Traduction": "enfoncer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "understand",
+        "Preterit": "understood",
+        "Participe passe": "understood",
+        "Traduction": "comprendre",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "upset",
+        "Preterit": "upset",
+        "Participe passe": "upset",
+        "Traduction": "déranger",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "wake",
+        "Preterit": "woke",
+        "Participe passe": "woken",
+        "Traduction": "réveiller",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "wear",
+        "Preterit": "wore",
+        "Participe passe": "worn",
+        "Traduction": "porter",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "weep",
+        "Preterit": "wept",
+        "Participe passe": "wept",
+        "Traduction": "pleurer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "wet",
+        "Preterit": "wet/wetted",
+        "Participe passe": "wet/wetted",
+        "Traduction": "mouiller",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "win",
+        "Preterit": "won",
+        "Participe passe": "won",
+        "Traduction": "gagner",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "wind",
+        "Preterit": "wound",
+        "Participe passe": "wound",
+        "Traduction": "bobiner",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "write",
+        "Preterit": "wrote",
+        "Participe passe": "written",
+        "Traduction": "écrire",
+        "isSelected": false
+    }
+]
