@@ -2,91 +2,143 @@ import { useEffect, useState } from 'react'
 import ToggleSwitch from './components/ui/ToggleSwitch'
 import Table from './components/ui/Table';
 import words from './words.json';
+import './assets/styles/App.css';
+import PixelButton from './components/ui/PixelButton';
+import { PDFGeneration, selectRandomWords} from './lib/PDFGeneration';
+import NumberInput from './components/ui/NumberInput';
 
 function App() {
-  const [wordsSelected, setWordsSelected] = useState(words);
-  const [selectAll, setSelectAll] = useState(false);
-  const [filtres, setFiltres] = useState({
-    traduction: true,
-    baseVerbale: true,
-    preterit: true,
-    participePasse: true
-  });
-  const [columnsToDisplay, setColumnsToDisplay] = useState(["Base verbale", "Preterit", "Participe passe", "Traduction"]);
+    const [wordsSelected, setWordsSelected] = useState(words);
+    const [selectAll, setSelectAll] = useState(false);
+    const [filtres, setFiltres] = useState({
+        traduction: true,
+        baseVerbale: true,
+        preterit: true,
+        participePasse: true,
+        melanger: true,
+        nombreTrousParLigne: 1
+    });
+    const [columnsToDisplay, setColumnsToDisplay] = useState(["Base verbale", "Préterit", "Participe passé", "Traduction"]);
 
-  const handleToggleChange = (filterName) => {
-    setFiltres(prevFiltres => ({
-      ...prevFiltres,
-      [filterName]: !prevFiltres[filterName]
-    }));
-  };
+    const handleToggleChange = (filterName) => {
+        setFiltres(prevFiltres => ({
+            ...prevFiltres,
+            [filterName]: !prevFiltres[filterName]
+        }));
+    };
 
-  const handleRowSelection = (row) => {
-    console.log(row);
-    row.isSelected = !row.isSelected;
-    setWordsSelected([...wordsSelected]);
-    if(wordsSelected.every(word => word.isSelected)) {
-      setSelectAll(true);
-    } else {
-      setSelectAll(false);
+    const handleRowSelection = (row) => {
+        row.isSelected = !row.isSelected;
+        setWordsSelected([...wordsSelected]);
+        if(wordsSelected.every(word => word.isSelected)) {
+            setSelectAll(true);
+        } else {
+            setSelectAll(false);
+        }
     }
-  }
-  const handleSelectAll = () => {
-    const allSelected = wordsSelected.every(word => word.isSelected);
-    const updatedWords = wordsSelected.map(word => ({
-      ...word,
-      isSelected: !allSelected
-    }));
-    setWordsSelected(updatedWords);
-    setSelectAll(!allSelected);
-  }
-  
-  useEffect(() => {
-    const cols = [];
-    if (filtres.baseVerbale) cols.push("Base verbale");
-    if (filtres.preterit) cols.push("Preterit");
-    if (filtres.participePasse) cols.push("Participe passe");
-    if (filtres.traduction) cols.push("Traduction");
-    setColumnsToDisplay(cols);
-  }, [filtres]);
+    const handleSelectAll = () => {
+        const allSelected = wordsSelected.every(word => word.isSelected);
+        const updatedWords = wordsSelected.map(word => ({
+            ...word,
+            isSelected: !allSelected
+        }));
+        setWordsSelected(updatedWords);
+        setSelectAll(!allSelected);
+    }
 
-  return (
-    <>
-      <h1>Generateur d'evaluation de verbes irréguliers</h1>
-      <p>Selectionnez les verbes evaluer et les colones que vous souhaitez afficher.</p>
-      <p>PS: Bon courage pour la correction !</p>
-      
-      <aside id="filtres">
-        <h2>Filtres</h2>
-        <ul id="colonnes-a-afficher">
-          <li>
-            <ToggleSwitch isChecked={filtres.traduction} onChange={() => handleToggleChange("traduction")}/>
-            <label htmlFor='Traduction'>Traduction</label>
-          </li>
-          <li>
-            <ToggleSwitch isChecked={filtres.baseVerbale} onChange={() => handleToggleChange("baseVerbale")}/>
-            <label htmlFor='Base verbale'>Base verbale</label>
-          </li>
-          <li>
-            <ToggleSwitch isChecked={filtres.preterit} onChange={() => handleToggleChange("preterit")} />
-            <label htmlFor='Preterit'>Preterit</label>
-          </li>
-          <li>
-            <ToggleSwitch isChecked={filtres.participePasse} onChange={() => handleToggleChange("participePasse")} />
-            <label htmlFor='Participe passe'>Participe passe</label>
-          </li>
-        </ul>
-      </aside>
-      <main>
-        <Table
-          columnsNames={columnsToDisplay}
-          rows={wordsSelected}
-          onSelection={(e) => handleRowSelection(e)}
-          onSelectAll={handleSelectAll}
-          selectAll={selectAll}
-        />
-      </main>
-    </>
-  )
+    useEffect(() => {
+        const cols = [];
+        if (filtres.baseVerbale) cols.push("Base verbale");
+        if (filtres.preterit) cols.push("Préterit");
+        if (filtres.participePasse) cols.push("Participe passé");
+        if (filtres.traduction) cols.push("Traduction");
+        setColumnsToDisplay(cols);
+    }, [filtres]);
+
+    const generateSelectionToPDF = () => {
+        let words = [];
+        wordsSelected.forEach(word => {
+            if(word.isSelected) {
+                let newWordsRow = selectRandomWords(word, filtres.nombreTrousParLigne);
+                words.push(newWordsRow);
+            }
+        });
+
+        if(filtres.melanger) {
+            words = words.sort(() => Math.random() - 0.5);
+        }
+        const doc = PDFGeneration(columnsToDisplay, words);
+        window.open(doc.output('pdfobjectnewwindow'), '_blank');
+    }
+
+    const addNumberOfHolesPerLine = () => {
+        if(filtres.nombreTrousParLigne + 1 < 4 && filtres.nombreTrousParLigne + 1 > 1) {
+            setFiltres(prevFiltres => ({
+                ...prevFiltres,
+                nombreTrousParLigne: filtres.nombreTrousParLigne + 1
+            }));
+        }
+    }
+
+    const reduceNumberOfHolesPerLine = () => {
+        if(filtres.nombreTrousParLigne - 1 > 0 && filtres.nombreTrousParLigne - 1 < 4) {
+            setFiltres(prevFiltres => ({
+                ...prevFiltres,
+                nombreTrousParLigne: filtres.nombreTrousParLigne - 1
+            }));
+        }
+    }
+
+    return (
+        <>
+        <h1>Generateur d'évaluation de verbes irréguliers</h1>
+        <p>Selectionnez les verbes evaluer et les colones que vous souhaitez afficher.</p>
+        <p>PS: Bon courage pour la correction !</p>
+        
+        <div id="content">
+            <aside id="filtres">
+                <h2>Filtres</h2>
+                <ul id="colonnes-a-afficher">
+                    <li>
+                        <ToggleSwitch isChecked={filtres.traduction} onChange={() => handleToggleChange("traduction")}/>
+                        <label htmlFor='Traduction'>Traduction</label>
+                    </li>
+                    <li>
+                        <ToggleSwitch isChecked={filtres.baseVerbale} onChange={() => handleToggleChange("baseVerbale")}/>
+                        <label htmlFor='Base verbale'>Base verbale</label>
+                    </li>
+                    <li>
+                        <ToggleSwitch isChecked={filtres.preterit} onChange={() => handleToggleChange("preterit")} />
+                        <label htmlFor='Preterit'>Préterit</label>
+                    </li>
+                    <li>
+                        <ToggleSwitch isChecked={filtres.participePasse} onChange={() => handleToggleChange("participePasse")} />
+                        <label htmlFor='Participe passe'>Participe passé</label>
+                    </li>
+                    <li>
+                        <ToggleSwitch isChecked={filtres.melanger} onChange={() => handleToggleChange("melanger")} />
+                        <label htmlFor='Participe passe'>Mélanger</label>
+                    </li>
+                    <li>
+                        <label>Nombre de trous par lignes</label>
+                        <NumberInput value={filtres.nombreTrousParLigne} onMinusClick={reduceNumberOfHolesPerLine} onPlusClick={addNumberOfHolesPerLine}/>
+                    </li>
+                    <li id="generer-pdf-button">
+                        <PixelButton label="Générer" onClick={() => generateSelectionToPDF()}/>
+                    </li>
+                </ul>
+            </aside>
+            <main>
+                <Table
+                    columnsNames={columnsToDisplay}
+                    rows={wordsSelected}
+                    onSelection={(e) => handleRowSelection(e)}
+                    onSelectAll={handleSelectAll}
+                    selectAll={selectAll}
+                />
+            </main>
+        </div>
+        </>
+    )
 }
 export default App
