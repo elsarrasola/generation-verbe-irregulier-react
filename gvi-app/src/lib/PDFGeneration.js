@@ -1,14 +1,21 @@
 import { jsPDF } from "jspdf";
 import { autoTable } from "jspdf-autotable";
 
+function upperCaseFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 export function PDFGeneration(columnsNames, rows) {
     const doc = new jsPDF();
     autoTable(doc, {
+        theme: 'grid',
+        styles: { lineColor: "#000000", lineWidth: 0.1, textColor: "#000000" },
+        headStyles: { fillColor: "#e7e9ed", textColor: "#000000", lineColor: "#000000", lineWidth: 0.1 },
         head: [columnsNames],
         body: rows.filter(row => row.isSelected).map(row => {
             let rowData = [];
             columnsNames.map(colName => {
-                rowData.push(row[colName]);
+                rowData.push(upperCaseFirstLetter(row[colName]));
             })
             return rowData;
         })

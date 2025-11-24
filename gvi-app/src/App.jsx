@@ -77,7 +77,7 @@ function App() {
             words = words.sort(() => Math.random() - 0.5);
         }
         const doc = PDFGeneration(columnsToDisplay, words);
-        window.open(doc.output('pdfobjectnewwindow'), '_blank');
+        doc.output('pdfobjectnewwindow');
     }
 
     const addNumberOfHolesPerLine = () => {
