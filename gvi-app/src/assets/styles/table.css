@@ -8,8 +8,8 @@
     border: 5px solid #a4a6a7;
     border-bottom: 5px solid #969899;
     border-right: 5px solid #969899;
-    color: #000000;
-    font-family: "PixelifySans-Regular", sans-serif;
+    color: #FFFFFF;
+    font-family: "BSFont", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     padding-right: 5px;
@@ -28,9 +28,9 @@
     border: 5px solid #a4a6a7;
     border-bottom: 5px solid #969899;
     border-right: 5px solid #969899;
-    font-family: "PixelifySans-Regular", sans-serif;
+    font-family: "BSFont", sans-serif;
     font-optical-sizing: auto;
-    font-style: normal;
+    font-style: light;
     padding-right: 5px;
     padding-left: 5px;
 }

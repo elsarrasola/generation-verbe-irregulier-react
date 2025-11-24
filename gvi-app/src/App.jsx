@@ -100,10 +100,6 @@ function App() {
 
     return (
         <>
-        <h1>Generateur d'évaluation de verbes irréguliers</h1>
-        <p>Selectionnez les verbes evaluer et les colones que vous souhaitez afficher.</p>
-        <p>PS: Bon courage pour la correction !</p>
-        
         <div id="content">
             <aside id="filtres">
                 <h2>Filtres</h2>
