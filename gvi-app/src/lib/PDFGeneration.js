@@ -16,13 +16,15 @@ export function PDFGeneration(columnsNames, rows) {
     return doc;
 }
 
-export function selectRandomWords(words, count) {
-    let keys = Object.keys(words);
-    let workWords = {};
-    keys.forEach((key) => {
-        workWords[key] = words[key];
+export function selectRandomWords(columnsNames, words, count) {
+    let workWords = {
+        isSelected: words["isSelected"]
+    };
+    columnsNames.forEach((col) => {
+        workWords[col] = words[col];
     });
-
+    
+    let keys = Object.keys(workWords);
     let numberOfSelectedWords = 0;
     let selectedKeys = [];
     while(numberOfSelectedWords < count) {

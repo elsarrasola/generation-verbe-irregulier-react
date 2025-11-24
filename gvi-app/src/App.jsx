@@ -19,6 +19,8 @@ function App() {
         nombreTrousParLigne: 1
     });
     const [columnsToDisplay, setColumnsToDisplay] = useState(["Base verbale", "Préterit", "Participe passé", "Traduction"]);
+    const [maxHoles, setMaxHoles] = useState(3);
+    const [minHoles, setMinHoles] = useState(0);
 
     const handleToggleChange = (filterName) => {
         setFiltres(prevFiltres => ({
@@ -53,13 +55,20 @@ function App() {
         if (filtres.participePasse) cols.push("Participe passé");
         if (filtres.traduction) cols.push("Traduction");
         setColumnsToDisplay(cols);
+        setMaxHoles(cols.length - 1);
+        if(filtres.nombreTrousParLigne > cols.length -1) {
+            setFiltres(prevFiltres => ({
+                ...prevFiltres,
+                nombreTrousParLigne: cols.length -1
+            }));
+        }
     }, [filtres]);
 
     const generateSelectionToPDF = () => {
         let words = [];
         wordsSelected.forEach(word => {
             if(word.isSelected) {
-                let newWordsRow = selectRandomWords(word, filtres.nombreTrousParLigne);
+                let newWordsRow = selectRandomWords(columnsToDisplay, word, filtres.nombreTrousParLigne);
                 words.push(newWordsRow);
             }
         });
@@ -72,7 +81,7 @@ function App() {
     }
 
     const addNumberOfHolesPerLine = () => {
-        if(filtres.nombreTrousParLigne + 1 < 4 && filtres.nombreTrousParLigne + 1 > 1) {
+        if(filtres.nombreTrousParLigne + 1 <= maxHoles && filtres.nombreTrousParLigne + 1 >= minHoles) {
             setFiltres(prevFiltres => ({
                 ...prevFiltres,
                 nombreTrousParLigne: filtres.nombreTrousParLigne + 1
@@ -81,7 +90,7 @@ function App() {
     }
 
     const reduceNumberOfHolesPerLine = () => {
-        if(filtres.nombreTrousParLigne - 1 > 0 && filtres.nombreTrousParLigne - 1 < 4) {
+        if(filtres.nombreTrousParLigne - 1 >= minHoles && filtres.nombreTrousParLigne - 1 <= maxHoles) {
             setFiltres(prevFiltres => ({
                 ...prevFiltres,
                 nombreTrousParLigne: filtres.nombreTrousParLigne - 1
