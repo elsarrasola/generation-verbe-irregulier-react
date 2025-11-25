@@ -3,7 +3,7 @@
         "Base verbale": "abide",
         "Préterit": "abode/abided",
         "Participe passé": "abode/abided",
-        "Traduction": "demeurer",
+        "Traduction": "se conformer",
         "isSelected": false
     },
     {
@@ -14,6 +14,13 @@
         "isSelected": false
     },
     {
+        "Base verbale": "awake",
+        "Préterit": "awoke",
+        "Participe passé": "awoken",
+        "Traduction": "se réveiller",
+        "isSelected": false
+    },
+    {
         "Base verbale": "be",
         "Préterit": "was/were",
         "Participe passé": "been",
@@ -21,10 +28,31 @@
         "isSelected": false
     },
     {
+        "Base verbale": "bear",
+        "Préterit": "bore",
+        "Participe passé": "borne/born",
+        "Traduction": "porter",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "beat",
+        "Préterit": "beat",
+        "Participe passé": "beaten",
+        "Traduction": "battre",
+        "isSelected": false
+    },
+    {
         "Base verbale": "become",
         "Préterit": "became",
         "Participe passé": "become",
         "Traduction": "devenir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "beget",
+        "Préterit": "begat/begot",
+        "Participe passé": "begotten",
+        "Traduction": "engendrer",
         "isSelected": false
     },
     {
@@ -49,10 +77,24 @@
         "isSelected": false
     },
     {
+        "Base verbale": "bid",
+        "Préterit": "bid/bade",
+        "Participe passé": "bidden/bid",
+        "Traduction": "offrir",
+        "isSelected": false
+    },
+    {
         "Base verbale": "bite",
         "Préterit": "bit",
         "Participe passé": "bitten",
         "Traduction": "mordre",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "bleed",
+        "Préterit": "bled",
+        "Participe passé": "bled",
+        "Traduction": "saigner",
         "isSelected": false
     },
     {
@@ -70,10 +112,24 @@
         "isSelected": false
     },
     {
+        "Base verbale": "breed",
+        "Préterit": "bred",
+        "Participe passé": "bred",
+        "Traduction": "élever (animaux)",
+        "isSelected": false
+    },
+    {
         "Base verbale": "bring",
         "Préterit": "brought",
         "Participe passé": "brought",
         "Traduction": "apporter",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "broadcast",
+        "Préterit": "broadcast",
+        "Participe passé": "broadcast",
+        "Traduction": "diffuser",
         "isSelected": false
     },
     {
@@ -112,10 +168,31 @@
         "isSelected": false
     },
     {
+        "Base verbale": "chide",
+        "Préterit": "chid/chided",
+        "Participe passé": "chid/chidden/chided",
+        "Traduction": "réprimander",
+        "isSelected": false
+    },
+    {
         "Base verbale": "choose",
         "Préterit": "chose",
         "Participe passé": "chosen",
         "Traduction": "choisir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "cling",
+        "Préterit": "clung",
+        "Participe passé": "clung",
+        "Traduction": "s'accrocher",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "clothe",
+        "Préterit": "clad/clothed",
+        "Participe passé": "clad/clothed",
+        "Traduction": "habiller",
         "isSelected": false
     },
     {
@@ -130,6 +207,13 @@
         "Préterit": "cost",
         "Participe passé": "cost",
         "Traduction": "coûter",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "creep",
+        "Préterit": "crept",
+        "Participe passé": "crept",
+        "Traduction": "ramper",
         "isSelected": false
     },
     {
@@ -151,6 +235,13 @@
         "Préterit": "dug",
         "Participe passé": "dug",
         "Traduction": "creuser",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "dive",
+        "Préterit": "dived",
+        "Participe passé": "dived/dove",
+        "Traduction": "plonger",
         "isSelected": false
     },
     {
@@ -186,6 +277,13 @@
         "Préterit": "drove",
         "Participe passé": "driven",
         "Traduction": "conduire",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "dwell",
+        "Préterit": "dwelt",
+        "Participe passé": "dwelt/dwelled",
+        "Traduction": "habiter",
         "isSelected": false
     },
     {
@@ -231,10 +329,45 @@
         "isSelected": false
     },
     {
+        "Base verbale": "flee",
+        "Préterit": "fled",
+        "Participe passé": "fled",
+        "Traduction": "s'enfuir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "fling",
+        "Préterit": "flung",
+        "Participe passé": "flung",
+        "Traduction": "lancer",
+        "isSelected": false
+    },
+    {
         "Base verbale": "fly",
         "Préterit": "flew",
         "Participe passé": "flown",
         "Traduction": "voler",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "forbid",
+        "Préterit": "forbade",
+        "Participe passé": "forbidden",
+        "Traduction": "interdire",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "forecast",
+        "Préterit": "forecast",
+        "Participe passé": "forecast",
+        "Traduction": "prévoir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "foresee",
+        "Préterit": "foresaw",
+        "Participe passé": "foreseen",
+        "Traduction": "prévoir/présentir",
         "isSelected": false
     },
     {
@@ -249,6 +382,13 @@
         "Préterit": "forgave",
         "Participe passé": "forgiven",
         "Traduction": "pardonner",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "forsake",
+        "Préterit": "forsook",
+        "Participe passé": "forsaken",
+        "Traduction": "abandonner",
         "isSelected": false
     },
     {
@@ -280,6 +420,13 @@
         "isSelected": false
     },
     {
+        "Base verbale": "grind",
+        "Préterit": "ground",
+        "Participe passé": "ground",
+        "Traduction": "moudre/opprimer",
+        "isSelected": false
+    },
+    {
         "Base verbale": "grow",
         "Préterit": "grew",
         "Participe passé": "grown",
@@ -290,7 +437,7 @@
         "Base verbale": "hang",
         "Préterit": "hung/hanged",
         "Participe passé": "hung/hanged",
-        "Traduction": "pendre",
+        "Traduction": "tenir/pendre",
         "isSelected": false
     },
     {
@@ -318,7 +465,7 @@
         "Base verbale": "hit",
         "Préterit": "hit",
         "Participe passé": "hit",
-        "Traduction": "frapper",
+        "Traduction": "taper/appuyer",
         "isSelected": false
     },
     {
@@ -332,7 +479,7 @@
         "Base verbale": "hurt",
         "Préterit": "hurt",
         "Participe passé": "hurt",
-        "Traduction": "faire mal",
+        "Traduction": "blesser",
         "isSelected": false
     },
     {
@@ -340,6 +487,13 @@
         "Préterit": "kept",
         "Participe passé": "kept",
         "Traduction": "garder",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "kneel",
+        "Préterit": "knelt/kneeled",
+        "Participe passé": "knelt/kneeled",
+        "Traduction": "s'agenouiller",
         "isSelected": false
     },
     {
@@ -360,7 +514,21 @@
         "Base verbale": "lead",
         "Préterit": "led",
         "Participe passé": "led",
-        "Traduction": "conduire",
+        "Traduction": "mener/guider",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "lean",
+        "Préterit": "leant/leaned",
+        "Participe passé": "leant/leaned",
+        "Traduction": "s'incliner/se pencher",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "leap",
+        "Préterit": "leapt/leaped",
+        "Participe passé": "leapt/leaped",
+        "Traduction": "sauter/bondir",
         "isSelected": false
     },
     {
@@ -388,7 +556,7 @@
         "Base verbale": "let",
         "Préterit": "let",
         "Participe passé": "let",
-        "Traduction": "laisser",
+        "Traduction": "laisser/louer",
         "isSelected": false
     },
     {
@@ -416,7 +584,7 @@
         "Base verbale": "make",
         "Préterit": "made",
         "Participe passé": "made",
-        "Traduction": "faire",
+        "Traduction": "fabriquer",
         "isSelected": false
     },
     {
@@ -434,10 +602,59 @@
         "isSelected": false
     },
     {
+        "Base verbale": "mow",
+        "Préterit": "mowed",
+        "Participe passé": "mown/mowed",
+        "Traduction": "tondre",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "offset",
+        "Préterit": "offset",
+        "Participe passé": "offset",
+        "Traduction": "compenser",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "overcome",
+        "Préterit": "overcame",
+        "Participe passé": "overcome",
+        "Traduction": "surmonter",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "partake",
+        "Préterit": "partook",
+        "Participe passé": "partaken",
+        "Traduction": "prendre part à",
+        "isSelected": false
+    },
+    {
         "Base verbale": "pay",
         "Préterit": "paid",
         "Participe passé": "paid",
         "Traduction": "payer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "plead",
+        "Préterit": "pled/pleaded",
+        "Participe passé": "pled/pleaded",
+        "Traduction": "supplier/plaider",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "preset",
+        "Préterit": "preset",
+        "Participe passé": "preset",
+        "Traduction": "programmer/pré-régler",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "prove",
+        "Préterit": "proved",
+        "Participe passé": "proven/proved",
+        "Traduction": "prouver",
         "isSelected": false
     },
     {
@@ -448,10 +665,38 @@
         "isSelected": false
     },
     {
+        "Base verbale": "quit",
+        "Préterit": "quit",
+        "Participe passé": "quit",
+        "Traduction": "quitter",
+        "isSelected": false
+    },
+    {
         "Base verbale": "read",
         "Préterit": "read",
         "Participe passé": "read",
         "Traduction": "lire",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "relay",
+        "Préterit": "relaid",
+        "Participe passé": "relaid",
+        "Traduction": "relayer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "rend",
+        "Préterit": "rent",
+        "Participe passé": "rent",
+        "Traduction": "déchirer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "rid",
+        "Préterit": "rid",
+        "Participe passé": "rid",
+        "Traduction": "débarrasser",
         "isSelected": false
     },
     {
@@ -480,6 +725,13 @@
         "Préterit": "ran",
         "Participe passé": "run",
         "Traduction": "courir",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "saw",
+        "Préterit": "sawed",
+        "Participe passé": "sawn/sawed",
+        "Traduction": "scier",
         "isSelected": false
     },
     {
@@ -532,10 +784,24 @@
         "isSelected": false
     },
     {
+        "Base verbale": "shed",
+        "Préterit": "shed",
+        "Participe passé": "shed",
+        "Traduction": "verser/répandre",
+        "isSelected": false
+    },
+    {
         "Base verbale": "shine",
         "Préterit": "shone",
         "Participe passé": "shone",
         "Traduction": "briller",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "shoe",
+        "Préterit": "shod",
+        "Participe passé": "shod",
+        "Traduction": "chausser",
         "isSelected": false
     },
     {
@@ -581,6 +847,13 @@
         "isSelected": false
     },
     {
+        "Base verbale": "slay",
+        "Préterit": "slew",
+        "Participe passé": "slain",
+        "Traduction": "tuer/détruire",
+        "isSelected": false
+    },
+    {
         "Base verbale": "sleep",
         "Préterit": "slept",
         "Participe passé": "slept",
@@ -595,10 +868,38 @@
         "isSelected": false
     },
     {
+        "Base verbale": "slink",
+        "Préterit": "slunk",
+        "Participe passé": "slunk",
+        "Traduction": "s'en aller furtivement",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "slit",
+        "Préterit": "slit",
+        "Participe passé": "slit",
+        "Traduction": "fendre",
+        "isSelected": false
+    },
+    {
         "Base verbale": "speak",
         "Préterit": "spoke",
         "Participe passé": "spoken",
         "Traduction": "parler",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "speed",
+        "Préterit": "sped",
+        "Participe passé": "sped",
+        "Traduction": "aller vite",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "spell",
+        "Préterit": "spelt",
+        "Participe passé": "spelt",
+        "Traduction": "épeler",
         "isSelected": false
     },
     {
@@ -609,10 +910,24 @@
         "isSelected": false
     },
     {
+        "Base verbale": "spill",
+        "Préterit": "spilt/spilled",
+        "Participe passé": "spilt/spilled",
+        "Traduction": "renverser",
+        "isSelected": false
+    },
+    {
         "Base verbale": "spin",
         "Préterit": "spun",
         "Participe passé": "spun",
         "Traduction": "tourner",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "spit",
+        "Préterit": "spat/spit",
+        "Participe passé": "spat/spit",
+        "Traduction": "cracher",
         "isSelected": false
     },
     {
@@ -624,16 +939,16 @@
     },
     {
         "Base verbale": "spoil",
-        "Préterit": "spoilt/spoiled",
-        "Participe passé": "spoilt/spoiled",
-        "Traduction": "gâter",
+        "Préterit": "spoilt",
+        "Participe passé": "spoilt",
+        "Traduction": "gâter/gâcher",
         "isSelected": false
     },
     {
         "Base verbale": "spread",
         "Préterit": "spread",
         "Participe passé": "spread",
-        "Traduction": "étendre",
+        "Traduction": "répandre",
         "isSelected": false
     },
     {
@@ -679,24 +994,17 @@
         "isSelected": false
     },
     {
+        "Base verbale": "strew",
+        "Préterit": "strewed",
+        "Participe passé": "strewn",
+        "Traduction": "éparpiller",
+        "isSelected": false
+    },
+    {
         "Base verbale": "strike",
         "Préterit": "struck",
         "Participe passé": "struck",
         "Traduction": "frapper",
-        "isSelected": false
-    },
-    {
-        "Base verbale": "string",
-        "Préterit": "strung",
-        "Participe passé": "strung",
-        "Traduction": "enfiler",
-        "isSelected": false
-    },
-    {
-        "Base verbale": "strip",
-        "Préterit": "stripped/stript",
-        "Participe passé": "stripped/stript",
-        "Traduction": "dépouiller",
         "isSelected": false
     },
     {
@@ -725,6 +1033,13 @@
         "Préterit": "swept",
         "Participe passé": "swept",
         "Traduction": "balayer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "swell",
+        "Préterit": "swelled/sweated",
+        "Participe passé": "swollen",
+        "Traduction": "gonfler",
         "isSelected": false
     },
     {
@@ -777,6 +1092,13 @@
         "isSelected": false
     },
     {
+        "Base verbale": "thrive",
+        "Préterit": "throve",
+        "Participe passé": "thriven",
+        "Traduction": "prospérer",
+        "isSelected": false
+    },
+    {
         "Base verbale": "throw",
         "Préterit": "threw",
         "Participe passé": "thrown",
@@ -791,17 +1113,24 @@
         "isSelected": false
     },
     {
+        "Base verbale": "tread",
+        "Préterit": "trod",
+        "Participe passé": "trodden/trod",
+        "Traduction": "piétiner",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "undergo",
+        "Préterit": "underwent",
+        "Participe passé": "undergone",
+        "Traduction": "subir",
+        "isSelected": false
+    },
+    {
         "Base verbale": "understand",
         "Préterit": "understood",
         "Participe passé": "understood",
         "Traduction": "comprendre",
-        "isSelected": false
-    },
-    {
-        "Base verbale": "upset",
-        "Préterit": "upset",
-        "Participe passé": "upset",
-        "Traduction": "déranger",
         "isSelected": false
     },
     {
@@ -815,7 +1144,7 @@
         "Base verbale": "wear",
         "Préterit": "wore",
         "Participe passé": "worn",
-        "Traduction": "porter",
+        "Traduction": "porter (vêtements)",
         "isSelected": false
     },
     {
@@ -827,8 +1156,8 @@
     },
     {
         "Base verbale": "wet",
-        "Préterit": "wet/wetted",
-        "Participe passé": "wet/wetted",
+        "Préterit": "wet",
+        "Participe passé": "wet",
         "Traduction": "mouiller",
         "isSelected": false
     },
@@ -844,6 +1173,20 @@
         "Préterit": "wound",
         "Participe passé": "wound",
         "Traduction": "enrouler",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "withdraw",
+        "Préterit": "withdrew",
+        "Participe passé": "withdrawn",
+        "Traduction": "se retirer",
+        "isSelected": false
+    },
+    {
+        "Base verbale": "wring",
+        "Préterit": "wrung",
+        "Participe passé": "wrung",
+        "Traduction": "tordre",
         "isSelected": false
     },
     {
