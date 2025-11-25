@@ -1,0 +1,29 @@
+h1 {
+    font-family: "BSFont", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.consigne {
+    font-family: "BSFont", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#note {
+    border: 5px solid #FF5100;
+    border-top-color: #FFBD9E;
+    border-left-color: #FFBD9E;
+    background-color: #FF702E;
+    width: fit-content;
+    padding: 10px;
+}
+
+#ps {
+    border: 5px solid #3c8526;
+    border-top-color: #95DB80;
+    border-left-color: #95DB80;
+    background-color: #559b3d;
+    width: fit-content;
+    padding: 10px;
+}

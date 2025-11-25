@@ -1,0 +1,44 @@
+#table-verbes {
+    background-color: #e7e9ed;
+    border-collapse: collapse;
+}
+
+#table-verbes thead th {
+    background-color: #8b8d91;
+    border: 5px solid #a4a6a7;
+    border-bottom: 5px solid #969899;
+    border-right: 5px solid #969899;
+    color: #FFFFFF;
+    font-family: "BSFont", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#tout-selectionner-entete {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+}
+
+#table-verbes tbody td {
+    border: 5px solid #a4a6a7;
+    border-bottom: 5px solid #969899;
+    border-right: 5px solid #969899;
+    font-family: "BSFont", sans-serif;
+    font-optical-sizing: auto;
+    font-style: light;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.paire {
+    background-color: #e7e9ed;
+}
+
+.unpaire {
+    background-color: #f4f6f8;
+}
